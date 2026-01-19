@@ -7,17 +7,17 @@ const Layout = ({ children }) => {
     <div className="layout">
       <header className="header">
         <Link to="/" className="logo">
-          App Legal Center
+          Constellation Finder
         </Link>
         <nav className="nav-links">
-          <Link 
-            to="/policy" 
+          <Link
+            to="/policy"
             className={`nav-link ${location.pathname === '/policy' ? 'active' : ''}`}
           >
             Privacy Policy
           </Link>
-          <Link 
-            to="/terms" 
+          <Link
+            to="/terms"
             className={`nav-link ${location.pathname === '/terms' ? 'active' : ''}`}
           >
             Terms of Service
